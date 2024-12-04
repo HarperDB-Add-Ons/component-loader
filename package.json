@@ -1,0 +1,9 @@
+{
+  "name": "component-loader",
+  "version": "1.0.0",
+  "description": "A shell for loading editable packages into HarperDB via GitHub repo",
+  "type": "module",
+  "dependencies": {
+    "anzip": "^0.2.0"
+  }
+}

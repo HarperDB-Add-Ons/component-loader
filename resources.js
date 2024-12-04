@@ -36,17 +36,10 @@ const moveComponent = async() => {
   console.log('component move complete');
 }
 
-const buildComponent = async() => {
-  console.log('starting component build');
-  execSync(`cd ${componentsDirectory} && npm i -save && npm run build`);
-  console.log('component build complete');
-}
-
 async function loadComponent() {
   await downloadComponent();
   await unzipComponent();
   await moveComponent();
-  await buildComponent();
 }
 
 
